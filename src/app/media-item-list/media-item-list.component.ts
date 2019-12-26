@@ -51,5 +51,7 @@ export class MediaItemListComponent {
     }
   ];
 
-  onMediaItemDelete(mediaItem) {}
+  onMediaItemDelete(mediaItem) {
+    console.log('Delete event from Child for media_item:' + mediaItem.name);
+  }
 }
